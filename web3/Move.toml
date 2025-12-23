@@ -1,0 +1,15 @@
+[package]
+name = "movement-x"
+version = "1.0.0"
+authors = []
+
+[addresses]
+movement_x_addr = "84d32d22f8590bf5e25f5ecde004f1522407ae0d2ae5a80816453c61cf6f01cb"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/movementlabsxyz/aptos-core.git"
+rev = "movement"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
